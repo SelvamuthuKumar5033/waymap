@@ -19,22 +19,24 @@
     <div id="container">
         <center><h2>SignUp</h2></center>
         <div id="user">
-            <form action="city.html" method="get">
+            <form action="index.html" method="get" id="signinform">
                 <div id="user-input">
                     <i class="fa-regular fa-envelope"></i>
                     <input type="text" placeholder=" username or email" required>
                 </div>
                 <div id="user-input">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder=" Create password" required>
+                    <input id="crpass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" Create password" required >
                 </div>
                 <div id="user-input">
                     <i class="fa-solid fa-lock"></i>
-                    <input type="password" placeholder=" Confirm password" required>
+                    <input id="copass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" Confirm password" required>
                 </div>
+                
+                <center><input type="button" onclick="checkpass()" value="Signin"></button></center>
             
-            <center><button>Sign in</button></center>
         </form>
+        
         </div>
     </div>
     <script src="script.js"></script>

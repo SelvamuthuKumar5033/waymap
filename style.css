@@ -54,10 +54,15 @@ body{
     color: white;
 }
 
-/* #user-input{
-    display: flex;
-    justify-content: space-between;
-} */
+#user input{
+    font-family: cursive;
+    width: 20%;
+    height: 50px;
+    border: 2px;
+    border-radius: 2px;
+    margin: 10px;
+    background-color: #f9b17a;
+}
 
 #user-input i{
     margin-left: 90%;
@@ -79,23 +84,13 @@ body{
 #fpass {
     text-align: right;
     padding: 10px;
-    margin-left: 60%;
+    margin-left: 59%;
     color: #f9b17a;
 }
 
 #cacc {
     padding: 10px;
     color: #f9b17a;
-}
-
-#user button{
-    font-family: cursive;
-    background-color: #f9b17a;
-    width: 30%;
-    border-radius: 2px;
-    padding: 10px;
-    margin: 10px;
-
 }
 
 
