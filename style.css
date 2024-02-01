@@ -39,34 +39,42 @@ body{
 #container{
     
     background-color: #2d3250;
-    max-width: inherit;
-    max-height: inherit;
     width: 25%;
-    height: 1570%;
+    height: 320px;
     padding: 5px;
     margin-top: 100px;
     margin-left: 40%;
     margin-right: 40%;
     border-radius: 5px ;
+    max-width: inherit;
+    max-height: inherit;
 }
 
-#container h2{
+#container h2,#or,#nacc{
     color: white;
 }
 
+
 #user input{
     font-family: cursive;
-    width: 20%;
-    height: 50px;
-    border: 2px;
-    border-radius: 2px;
-    margin: 10px;
+    width: 60%;
+    height: 30px;
+    border: 10px;
+    border-radius: 50px;
+    margin: 20px;
     background-color: #f9b17a;
+
+}
+
+#user-input{
+    display: flex;
 }
 
 #user-input i{
-    margin-left: 90%;
-    top:50%;
+    margin-left: 0%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-right: 5%;
     color: #fff;
 }
 
@@ -111,9 +119,9 @@ body{
     border-radius: 10px;
 }
 
-#btn{
-    font-family:cursive;
-    background-color:#f9b17a ;
+#btn {
+    font-family: cursive;
+    background-color: #f9b17a;
     width: 100px;
     height: 60px;
     margin: 15px;

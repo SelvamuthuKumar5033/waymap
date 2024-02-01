@@ -21,19 +21,19 @@
         <div id="user">
             <form action="index.html" method="get" id="signinform">
                 <div id="user-input">
+                    <input type="email" placeholder=" username or email" required>
                     <i class="fa-regular fa-envelope"></i>
-                    <input type="text" placeholder=" username or email" required>
                 </div>
                 <div id="user-input">
-                    <i class="fa-solid fa-lock"></i>
                     <input id="crpass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" Create password" required >
+                    <i class="fa-solid fa-lock"></i>
                 </div>
                 <div id="user-input">
-                    <i class="fa-solid fa-lock"></i>
                     <input id="copass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" Confirm password" required>
+                    <i class="fa-solid fa-lock"></i>
                 </div>
                 
-                <center><input type="button" onclick="checkpass()" value="Signin"></button></center>
+                <center><input type="submit" onclick="checkpass()" value="Signin"></center>
             
         </form>
         

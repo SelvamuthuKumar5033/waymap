@@ -6,6 +6,7 @@ function store(){
   var val = document.getElementById("crpass").value;
   localStorage.setItem("cnfrmpass",val);
 }
+
 function checkpass(){
   var pass1 = document.getElementById("crpass").value;
   var pass2 = document.getElementById("copass").value;
@@ -19,6 +20,7 @@ function checkpass(){
     alert("Password Mismatch");
   }
 }
+
 function checkpass2(){
   var logpass1 = document.getElementById("logpass").value;
   var logpass2 = localStorage.getItem("cnfrmpass");
@@ -30,7 +32,7 @@ function checkpass2(){
   }
 }
 
-let map;
+var map;
 
 async function initMap() {
   const { Map } = await google.maps.importLibrary("maps");
@@ -40,7 +42,7 @@ async function initMap() {
     zoom: 10,
   });
 }
-// const location = new map([
-//   Ariyalur
-  
-// ])
+
+function mapset(latitude , longtitude){
+  map.setCentre({lat:latitude,lng:longtitude});
+}

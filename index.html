@@ -19,22 +19,25 @@
     </div>
 
     <div id="container">
-        <center><h2>Welcome Back</h2></center>
+        <center><h2>Login</h2></center>
         <div id="user">
             <form action="city.html" method="get" id="loginform">
             <div id="user-input">
-                <i class="fa-regular fa-envelope"></i>
-                <input type="text" placeholder=" username or email" autofocus required>            
+                <input type="email" placeholder=" username or email" autofocus required>    
+                <i class="fa-regular fa-envelope"></i>        
             </div>
             <div id="user-input">
-                <i class="fa-solid fa-lock"></i>
                 <input id="logpass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" password" required>
+                <i class="fa-solid fa-lock"></i>
             </div>
 
             <a href id="fpass">forget Password ?</a>
-            <center><input type="button" onclick="checkpass2()" value="Login" ></button></center>
+            <center><input type="submit" onclick="checkpass2()" value="Login" ></center>
             <center id="or">or</center>
-            <center><a href="signin.html" id="cacc">Create account</center>
+            <div>
+                <center><p id="nacc">No account?<a href="signin.html" id="cacc" >Register</p></center>
+            </div>
+            
             </form>
         </div>
     </div>
