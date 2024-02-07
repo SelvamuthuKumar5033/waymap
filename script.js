@@ -1,3 +1,8 @@
+document.addEventListener('contextmenu',
+function (event){
+  event.preventDefault();
+})
+
 document.getElementById("crpass").addEventListener("input",function(){
   store();
 })
