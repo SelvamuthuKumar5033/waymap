@@ -19,29 +19,33 @@
         <center><h2>~~~~ Route Map ~~~~</h2></center>
     </div>
 
-    <div id="container">
-        <center><h2>Login</h2></center>
-        <div id="user">
-            <form action="city.html" method="get" id="loginform">
-            <div id="user-input">
-                <input type="text" placeholder=" username or email" autofocus required>    
-                <i class="fa-regular fa-envelope"></i>
+    <div id="row">
+        <div id="col"></div>
+        <div id="container">
+            <center><h2>Login</h2></center>
+            <div id="user">
+                <form action="city.html" method="get" id="loginform">
+                <div id="user-input">
+                    <input type="text" placeholder=" username or email" autofocus required>    
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div id="user-input">
+                    <input id="logpass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+    
+                <a href id="fpass">forget Password ?</a>
+                <center><input id="sub" type="submit" onclick="checkpass2()" value="Login" ></center>
+                <center id="or">or</center>
+                <div>
+                    <center><p id="nacc">No account?<a href="signin.html" id="cacc" >Register</p></center>
+                </div>
+                
+                </form>
             </div>
-            <div id="user-input">
-                <input id="logpass" type="password" pattern="^[A-Za-z0-9_@]{8,}" placeholder=" password" required>
-                <i class="fa-solid fa-lock"></i>
-            </div>
-
-            <a href id="fpass">forget Password ?</a>
-            <center><input type="submit" onclick="checkpass2()" value="Login" ></center>
-            <center id="or">or</center>
-            <div>
-                <center><p id="nacc">No account?<a href="signin.html" id="cacc" >Register</p></center>
-            </div>
-            
-            </form>
         </div>
     </div>
+    
 
     <script src="script.js"></script>
 </body>
