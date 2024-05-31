@@ -204,12 +204,12 @@ body{
     height: 25px;
 }
 
-@media screen and (max-width: 900px) and (min-width: 600px){
+@media screen and (max-width: 900px) and (min-width: 400px){
     #navbar{
         width: 97%;
     }
     #overlay{
-        background-image: url(./worldmap7.jpg);
+        background-image: url(./worldmap6.jpg);
     }
     #welcome{
         color: black;
