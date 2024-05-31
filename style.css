@@ -206,7 +206,7 @@ body{
 
 @media screen and (max-width: 900px) and (min-width: 400px){
     #navbar{
-        width: 97%;
+        width: 98.5%;
     }
     #overlay{
         background-image: url(./worldmap6.jpg);
@@ -218,17 +218,24 @@ body{
         color: black;
     }
     #container{
-        width: 42%;
+        width: 55%;
         height: 320px;
+        margin-left: 25%;
+    }
+    #user-input{
+        color: black;
     }
     #select-city{
-        width: 95%;
-        height: 200%;
+        width: 96%;
+        height: 1700px;
     }
     #homecontainer , #busroute ,#map{
         width: 96%;
     }   
+    #data{
+        width: 95%;
+    }
     #btnnext{
-        margin-left: 45%;
+        margin-left: 25%;
     }
 }
