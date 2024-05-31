@@ -36,26 +36,36 @@ body{
     border-radius: 10px ;
 }
 
-/* #row{
-    width: 80%;
-    height: 50%;
-    display: flexbox;
+#welcome{
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 5%;
+    padding: 5px;
+    color: white;
 }
 
-#col{
-    background: transparent;
-    background-color: #2d3250;
-    width: 25%;
-    height: 320px;
-    padding: 5px;
-    margin-top: 100px;
-    margin-left: 40%;
-    margin-right: 40%;
-    border-radius: 5px ;
-    box-shadow: 3px 2px 10px inset #2d3250;
-    transition: all 0.5s ease;  
-} */
+#con-box{
+    display: flex;
+    gap: 5px;
+}
 
+#welcomebtn{
+    font-family: cursive;
+    background-color: #2d3250;
+    width: 100px;
+    height: 60px;
+    margin: 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+#para{
+    color: white;
+    font-size: x-large;
+    margin: 10px;
+    padding: 5px;
+}
 
 #container{
     background: transparent;
@@ -176,7 +186,8 @@ body{
 
 #btnnext{
     background-color: #f9b17a;
-    margin-left: 50%;
+    margin-left: 75%;
+    margin-top: 10px;
     width: 68px;
     height: 50px;
 }
@@ -191,4 +202,33 @@ body{
 #btnback{
     background-color: #f9b17a;
     height: 25px;
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px){
+    #navbar{
+        width: 97%;
+    }
+    #overlay{
+        background-image: url(./worldmap7.jpg);
+    }
+    #welcome{
+        color: black;
+    }
+    #para{
+        color: black;
+    }
+    #container{
+        width: 42%;
+        height: 320px;
+    }
+    #select-city{
+        width: 95%;
+        height: 200%;
+    }
+    #homecontainer , #busroute ,#map{
+        width: 96%;
+    }   
+    #btnnext{
+        margin-left: 45%;
+    }
 }
